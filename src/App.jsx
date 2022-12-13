@@ -17,7 +17,7 @@ function App() {
         <Route path="/home" exact  element={<Home/>}/>
         <Route path="/temp" exact element={<Temp/>}/>
       </Routes>  */}
-      <DefaultHOC path="/home" exact element={Home} />
+      <DefaultHOC path="/" exact element={Home} />
     </div>
   );
 }
