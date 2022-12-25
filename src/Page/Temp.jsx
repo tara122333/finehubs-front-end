@@ -1,8 +1,12 @@
 import React from 'react'
+import Home from '../components/Course/Home';
 
 const Temp = () => {
-  return (
-    <div>This is Temp Page</div>
+  return (<>
+    <div>
+      <Home />
+    </div>
+  </>
   )
 }
 
