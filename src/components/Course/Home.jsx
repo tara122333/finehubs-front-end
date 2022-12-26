@@ -18,11 +18,13 @@ const Home = () => {
                 </div>
 
             </div> */}
+
+
             <div className='py-5 md:py-12'>
             </div>
             <div className='flex gap-2 md:gap-5 bg-purple-200 py-2 px-5 '>
                 <span className='px-3 bg-red-600 text-white rounded-sm font-serif'>NOTE</span>
-                <h1 className='text-lg font-bold'>This is Free Course | This is Free Course </h1>
+                <h1 className='text-lg font-bold'>| This is Free Course |</h1>
             </div>
 
             <div className='py-5 px-3'>
@@ -33,10 +35,10 @@ const Home = () => {
                     <hr/>
                     <div>
                         <span className='px-3 bg-red-300 rounded-sm font-serif'>Step I</span>
-                        <p>Like this <a href='https://www.youtube.com/@ConceptWithTara' className='underline text-blue-600 text-xl font-bold'>Video</a> And Subscribe the Channel ConceptWithTara And Take Screenshot.</p>
+                        <p>Like this <a href='https://www.youtube.com/@ConceptWithTara' className='underline text-blue-600 text-xl font-bold'>Video</a> And Subscribe the Channel <a href='https://www.youtube.com/@ConceptWithTara' className='underline text-red-600 text-xl font-bold'>ConceptWithTara</a> And Take Screenshot.</p>
 
-                        <div className='py-3 flex gap-3'>
-                            <span className='bg-purple-500 rounded-sm px-2 text-white'>Video Link : </span>
+                        <div className='py-3 flex gap-3 flex-col md:flex-row'>
+                            <span className='bg-purple-500 rounded-sm px-2 text-white w-28'>Video Link : </span>
                             <a href='https://www.youtube.com/@ConceptWithTara' className='text-blue-600'><span>https://www.youtube.com/@ConceptWithTara</span></a>
                         </div>
                         <div className='flex flex-col justify-center items-center py-3'>
@@ -81,5 +83,6 @@ const Home = () => {
     </>
   )
 }
+
 
 export default Home
