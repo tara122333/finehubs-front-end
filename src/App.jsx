@@ -1,7 +1,7 @@
 import React from "react";
 // import {Routes,Route} from 'react-router-dom'
 
-import Home from "./Page/Home";
+// import Home from "./Page/Home";
 import Temp from "./Page/Temp";
 
 
@@ -17,7 +17,7 @@ function App() {
         <Route path="/home" exact  element={<Home/>}/>
         <Route path="/temp" exact element={<Temp/>}/>
       </Routes>  */}
-      <DefaultHOC path="/" exact element={Home} />
+      <DefaultHOC path="/" exact element={Temp} />
     </div>
   );
 }
