@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/finehubs-front-end/static/css/main.9b6a852d.css",
-    "main.js": "/finehubs-front-end/static/js/main.d68b8857.js",
+    "main.css": "/finehubs-front-end/static/css/main.b114a643.css",
+    "main.js": "/finehubs-front-end/static/js/main.ffdf7255.js",
     "index.html": "/finehubs-front-end/index.html",
-    "main.9b6a852d.css.map": "/finehubs-front-end/static/css/main.9b6a852d.css.map",
-    "main.d68b8857.js.map": "/finehubs-front-end/static/js/main.d68b8857.js.map"
+    "main.b114a643.css.map": "/finehubs-front-end/static/css/main.b114a643.css.map",
+    "main.ffdf7255.js.map": "/finehubs-front-end/static/js/main.ffdf7255.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b6a852d.css",
-    "static/js/main.d68b8857.js"
+    "static/css/main.b114a643.css",
+    "static/js/main.ffdf7255.js"
   ]
 }
