@@ -22,11 +22,23 @@ const Home = () => {
 
             <div className='py-5 md:py-12'>
             </div>
+
+            
             <div className='flex gap-2 md:gap-5 bg-purple-200 py-2 px-5 '>
                 <span className='px-3 bg-red-600 text-white rounded-sm font-serif'>NOTE</span>
                 <h1 className='text-lg font-bold'>| This is Free Course |</h1>
             </div>
+            <hr />
+            <div className='py-4 cursor-pointer'>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/viewform?usp=sf_link' target=" _blank" className='flex justify-center items-center cursor-pointer'>
+                        <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
+                            Enroll Now
+                        </h1>
+                    </a>
 
+                </div>
+
+<hr />
             <div className='py-5 px-3'>
                 <h1 className='text-xl font-semibold text-red-500 md:text-3xl md:py-5'>How to enroll course ?</h1>
                 <h3 className='text-lg font-mono md:py-2'>This is 3 step process</h3>
@@ -77,6 +89,15 @@ const Home = () => {
                             </div>
                     </div>
                 </din>
+
+                <div className='py-12'>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/viewform?usp=sf_link' target=" _blank" className='flex justify-center items-center cursor-pointer'>
+                        <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
+                            Enroll Now
+                        </h1>
+                    </a>
+
+                </div>
 
             </div>
         </div>
