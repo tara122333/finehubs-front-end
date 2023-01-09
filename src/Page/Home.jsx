@@ -2,6 +2,8 @@ import React from 'react'
 import Poster from '../components/poster/Poster';
 import HomeCaurosal from '../components/HomeCaurosal/HomeCaurosal';
 import HomeItemData from '../components/HomeCaurosal/HomeItemData';
+import PosterCaurosal from '../components/poster/PosterCaurosal';
+import AllItemDetails from '../components/poster/AllItemDetails';
 
 const Home = () => {
   return (
@@ -19,10 +21,13 @@ const Home = () => {
         <div>
           <HomeItemData />
         </div>
+        <div className='px-2 py-4 lg:px-0 lg:py-0 my-5 lg:my-12'>
+          <div>
+            <AllItemDetails />
+          </div>
+        </div>
       </div>
       
-      <Poster />
-
     </>
 
   )

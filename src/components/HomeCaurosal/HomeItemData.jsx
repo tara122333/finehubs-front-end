@@ -50,14 +50,14 @@ const HomeItemData = () => {
   return (
     <>
         <div className='flex flex-col gap-5'>
-            <div className='flex flex-wrap justify-center items-center'>
+            <div className='flex flex-wrap justify-between items-center'>
                 {
                     homedata.map((item)=>(
                         <HomeItem {...item}/>
                     ))
                 }
             </div>
-            <div className='flex flex-wrap justify-center items-center'>
+            <div className='flex flex-wrap justify-between items-center'>
                 {
                     homedata.map((item)=>(
                         <HomeItem {...item}/>
