@@ -10,7 +10,7 @@ import SignIn from '../Auth/SignIn'
 const NavbarSM = ({SignIn,SignUp}) =>{
   return(
     <>
-      <div className='flex flex-col gap-1 w-full mx-4'>
+      <div className='flex flex-col gap-1 w-full px-4 pb-4'>
         <div className='w-full justify-between flex py-1'>
           <div className='flex flex-col'>
             <h1 className='font-bold text-2xl font-sans'>Location</h1>
@@ -38,7 +38,7 @@ const NavbarLG = ({SignIn,SignUp})=>{
     <>
       <div className='flex justify-between items-center w-full px-8 gap-10 py-2'>
         <div className='h-14 w-2/12'>
-          <img src="https://www.pngitem.com/pimgs/m/132-1327993_instagram-logo-word-png-transparent-png.png" alt="" className='w-full h-full'/>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Blinkit-yellow-rounded.svg" alt="" className='w-full h-full'/>
         </div>
         <div className='w-9/12 flex justify-center items-center gap-4'>
             <div className='flex w-full justify-center items-center'>
@@ -80,7 +80,7 @@ const Navbar = () => {
 
 
       {/* Navbar for mobile */}
-      <div className='flex md:hidden'>
+      <div className='flex lg:hidden'>
         <NavbarSM SignIn={openSignInmodal} />
       </div>
 

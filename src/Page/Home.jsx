@@ -1,16 +1,17 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar';
 import Poster from '../components/poster/Poster';
 
 const Home = () => {
   return (
     <>
-      <Navbar />
-
-      <div className='my-12'>
-        <h1 className='text-red-500 bg-red-200 text-2xl'>Also heading is included</h1>
+      <div className='container mx-auto px-32'>
+        <div className='w-full h-48 lg:hidden' >
+          <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=540/layout-engine/2022-12/Paan-Corner-Full.jpg" alt=""  className='w-full h-full'/>
+        </div>
+        <div className='w-full h-56'>
+          <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=1440/layout-engine/2022-05/Group-33704.jpg" alt=""  className='w-full h-full'/>
+        </div>
       </div>
-
       <Poster />
 
     </>
