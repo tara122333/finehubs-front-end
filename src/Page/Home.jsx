@@ -2,8 +2,8 @@ import React from 'react'
 import Poster from '../components/poster/Poster';
 import HomeCaurosal from '../components/HomeCaurosal/HomeCaurosal';
 import HomeItemData from '../components/HomeCaurosal/HomeItemData';
-import PosterCaurosal from '../components/poster/PosterCaurosal';
 import AllItemDetails from '../components/poster/AllItemDetails';
+import Service from '../components/Services/Service';
 
 const Home = () => {
   return (
@@ -25,6 +25,9 @@ const Home = () => {
           <div>
             <AllItemDetails />
           </div>
+        </div>
+        <div>
+          <Service />
         </div>
       </div>
       

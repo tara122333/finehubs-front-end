@@ -26,8 +26,6 @@ const PosterCaurosal = (props) => {
               settings: {
                 slidesToShow: 3,
                 slidesToScroll: 2,
-                nextArrow:true,
-                prevArrow: true,
               },
             },
             {
@@ -35,8 +33,6 @@ const PosterCaurosal = (props) => {
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
-                nextArrow: true,
-                prevArrow: true,
               },
             },
           ],

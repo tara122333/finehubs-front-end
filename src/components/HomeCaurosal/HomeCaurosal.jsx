@@ -53,17 +53,13 @@ const HomeCaurosal = () => {
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,
-                nextArrow:true,
-                prevArrow: true,
               },
             },
             {
               breakpoint: 480,
               settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1,
-                nextArrow: true,
-                prevArrow: true,
               },
             },
           ],
