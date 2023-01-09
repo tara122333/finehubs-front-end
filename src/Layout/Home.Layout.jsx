@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 
 const DefaultLayout = (props) =>{
     return(
@@ -10,6 +11,9 @@ const DefaultLayout = (props) =>{
             {
                 props.children
             }
+            <din className="">
+                <Footer />
+            </din>
         </>
     );
 }
